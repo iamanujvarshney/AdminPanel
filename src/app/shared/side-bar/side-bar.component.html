@@ -1,0 +1,14 @@
+<mat-sidenav-container class="navbar-content">
+      <mat-sidenav #sidenav mode="side" [opened]="isOpen">
+            <mat-nav-list class="nav-list">
+                  <a mat-list-item>Home</a>
+                  <a mat-list-item>About</a>
+                  <a mat-list-item>Settings</a>
+            </mat-nav-list>
+      </mat-sidenav>
+      <mat-sidenav-content>
+           <div class="mainContent">
+            <router-outlet></router-outlet>
+           </div>
+      </mat-sidenav-content>
+</mat-sidenav-container>

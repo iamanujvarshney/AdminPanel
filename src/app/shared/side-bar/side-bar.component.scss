@@ -1,0 +1,15 @@
+.mainContent {
+      min-height: 78vh;
+}
+mat-sidenav {
+      width: 200px;
+      margin: 2px;
+      border-radius: 5px;
+
+      mat-nav-list {
+            padding: 0px;
+      }
+}
+.mat-nav-list .mat-list-item:hover {
+      background-color: #e1eefa;
+}
