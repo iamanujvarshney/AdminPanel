@@ -1,13 +1,29 @@
 mat-toolbar{
+      border: 1px solid rgba(0,0,0,.125) !important;
+      background-color: #fff;
       button{
             border: none;
             background-color: transparent;
+            margin: 10px 5px 0px 0px;
+      }
+      .content{
+            font-size: 16px;
       }
       span{
+            color:#344563;
             margin-right: 5%;
       }
       a{
-            font-weight: normal;
+            color:#344563;
             padding: 0 5%;
+      }
+     
+}
+::ng-deep {
+      .mat-list-base .mat-list-item, .mat-list-base .mat-list-option{
+            height: 40px !important;
+      }
+      .mat-toolbar-row, .mat-toolbar-single-row{
+            height: 50px;
       }
 }

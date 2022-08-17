@@ -13,6 +13,7 @@ import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatSliderModule } from '@angular/material/slider';
 import { MatSlideToggleModule } from '@angular/material/slide-toggle';
 import {MatListModule} from '@angular/material/list';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 @NgModule({
   declarations: [
     AppComponent,
@@ -29,7 +30,8 @@ import {MatListModule} from '@angular/material/list';
     MatSidenavModule,
     MatSliderModule,
     MatSlideToggleModule,
-    MatListModule
+    MatListModule,
+    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]
